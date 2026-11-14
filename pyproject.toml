@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nextreset-mcp"
+version = "0.1.0"
+description = "Read-only MCP tools for public Codex reset status, history, and source evidence."
+readme = "MCP.md"
+requires-python = ">=3.12"
+license = "MIT"
+license-files = ["LICENSE-CODE"]
+dependencies = ["mcp==2.3.0"]
+
+[project.urls]
+Homepage = "https://nextreset.org/"
+Repository = "https://github.com/Ibunao/codex-reset-data"
+Documentation = "https://github.com/Ibunao/codex-reset-data/blob/main/MCP.md"
+Issues = "https://github.com/Ibunao/codex-reset-data/issues"
+
+[project.scripts]
+nextreset-mcp = "nextreset_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nextreset_mcp"]
+
+[tool.hatch.build.targets.sdist]
+only-include = ["src/nextreset_mcp", "pyproject.toml", "MCP.md", "LICENSE-CODE"]

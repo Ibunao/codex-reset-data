@@ -19,5 +19,5 @@ CC BY 4.0. Attribution does not require any particular HTML link attribute.
 This license covers only rights held by the contributors in the compilation
 and documentation. It does not grant rights to third-party source posts,
 websites, trademarks, or logos. Facts may not themselves be copyrightable.
-The scripts, tests, and workflow code are separately licensed under MIT;
+The MCP server, scripts, tests, packaging, and workflow code are licensed under MIT;
 see LICENSE-CODE. The private NextReset website source is not included.

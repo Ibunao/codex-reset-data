@@ -1,0 +1,7 @@
+*
+!pyproject.toml
+!MCP.md
+!LICENSE-CODE
+!src/
+!src/**
+**/__pycache__/

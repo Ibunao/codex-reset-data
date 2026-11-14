@@ -1,0 +1,39 @@
+name: Test MCP server
+
+on:
+  push:
+    branches: [main, codex/add-readonly-mcp]
+    paths:
+      - src/**
+      - tests/**
+      - scripts/**
+      - pyproject.toml
+      - uv.lock
+      - Dockerfile
+      - .github/workflows/test-mcp.yml
+  pull_request:
+    paths:
+      - src/**
+      - tests/**
+      - scripts/**
+      - pyproject.toml
+      - uv.lock
+      - Dockerfile
+      - .github/workflows/test-mcp.yml
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+      - run: uv sync --locked
+      - run: uv run python -m unittest discover -s tests -v
+      - run: uv build
+      - run: docker build -t nextreset-mcp .
