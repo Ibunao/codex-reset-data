@@ -1,0 +1,23 @@
+SPDX-License-Identifier: CC-BY-4.0
+
+Copyright (c) 2026 NextReset contributors
+
+The original dataset compilation in data/ and the documentation in this
+repository are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+The full license terms are incorporated by reference and available at:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+You may share and adapt the licensed material, including commercially,
+provided you give appropriate credit, link to the license, and indicate
+whether changes were made, as required by the license.
+
+Suggested credit: NextReset (https://nextreset.org/), Codex Reset Data,
+CC BY 4.0. Attribution does not require any particular HTML link attribute.
+
+This license covers only rights held by the contributors in the compilation
+and documentation. It does not grant rights to third-party source posts,
+websites, trademarks, or logos. Facts may not themselves be copyrightable.
+The scripts, tests, and workflow code are separately licensed under MIT;
+see LICENSE-CODE. The private NextReset website source is not included.
