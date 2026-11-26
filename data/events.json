@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "source": "https://nextreset.org/api/v1/events.json",
   "license": "CC-BY-4.0",
-  "generatedAt": "2026-11-26T05:00:43.412Z",
-  "dataAsOf": "2026-11-26T05:00:43.412Z",
+  "generatedAt": "2026-11-26T15:00:52.063Z",
+  "dataAsOf": "2026-11-26T15:00:52.063Z",
   "events": [
     {
       "eventId": "reset-2025-09-17-c994139",
@@ -1506,11 +1506,13 @@
     {
       "eventId": "reset-2026-11-26-a393806-banked",
       "resetType": "banked",
-      "lifecycle": "announced",
+      "lifecycle": "confirmed",
       "verificationStatus": "primary_verified",
-      "revision": 1,
+      "revision": 2,
       "announcementAt": "2026-11-26T02:50:10.000Z",
-      "lastSupportingEvidenceAt": "2026-11-26T02:50:10.000Z",
+      "confirmedAt": "2026-11-26T07:26:16.000Z",
+      "availableFrom": "2026-11-26T07:26:16.000Z",
+      "lastSupportingEvidenceAt": "2026-11-26T07:26:16.000Z",
       "affectedPlans": [],
       "evidence": [
         {
@@ -1520,6 +1522,14 @@
           "verificationStatus": "primary_verified",
           "sourceUrl": "https://x.com/thsottiaux/status/2125784147889393806",
           "publishedAt": "2026-11-26T02:50:10.000Z"
+        },
+        {
+          "evidenceId": "post-2125853628250599730-banked",
+          "role": "confirmation",
+          "tier": "primary",
+          "verificationStatus": "primary_verified",
+          "sourceUrl": "https://x.com/thsottiaux/status/2125853628250599730",
+          "publishedAt": "2026-11-26T07:26:16.000Z"
         }
       ]
     }
