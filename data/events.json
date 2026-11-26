@@ -2,8 +2,8 @@
   "schemaVersion": "1.0",
   "source": "https://nextreset.org/api/v1/events.json",
   "license": "CC-BY-4.0",
-  "generatedAt": "2026-11-25T22:00:53.327Z",
-  "dataAsOf": "2026-11-25T22:00:53.327Z",
+  "generatedAt": "2026-11-26T05:00:43.412Z",
+  "dataAsOf": "2026-11-26T05:00:43.412Z",
   "events": [
     {
       "eventId": "reset-2025-09-17-c994139",
@@ -1500,6 +1500,26 @@
           "verificationStatus": "primary_verified",
           "sourceUrl": "https://x.com/thsottiaux/status/2125299248782778588",
           "publishedAt": "2026-11-24T18:43:21.000Z"
+        }
+      ]
+    },
+    {
+      "eventId": "reset-2026-11-26-a393806-banked",
+      "resetType": "banked",
+      "lifecycle": "announced",
+      "verificationStatus": "primary_verified",
+      "revision": 1,
+      "announcementAt": "2026-11-26T02:50:10.000Z",
+      "lastSupportingEvidenceAt": "2026-11-26T02:50:10.000Z",
+      "affectedPlans": [],
+      "evidence": [
+        {
+          "evidenceId": "post-2125784147889393806-banked",
+          "role": "announcement",
+          "tier": "primary",
+          "verificationStatus": "primary_verified",
+          "sourceUrl": "https://x.com/thsottiaux/status/2125784147889393806",
+          "publishedAt": "2026-11-26T02:50:10.000Z"
         }
       ]
     }
